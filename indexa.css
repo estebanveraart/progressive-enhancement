@@ -1,0 +1,32 @@
+.good{
+    color :green ;
+}
+.bad{
+    color: red;
+}
+blockquote {
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 1px;
+    margin-inline-end: 40px;
+}
+link {
+    display: none;
+  }
+body {
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	color: navy;
+    width: 90%;
+    margin: 18%;
+  }
+a{
+    font-size: 20px;
+}
+a:hover{
+    color: paleturquoise;
+}
+a:visited{
+    color:springgreen
+}
