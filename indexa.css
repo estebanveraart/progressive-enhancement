@@ -4,13 +4,6 @@
 .bad{
     color: red;
 }
-blockquote {
-    display: block;
-    margin-block-start: 1px;
-    margin-block-end: 1px;
-    margin-inline-start: 1px;
-    margin-inline-end: 40px;
-}
 link {
     display: none;
   }
@@ -20,7 +13,12 @@ body {
 	color: navy;
     width: 90%;
     margin: 18%;
-  }
+    background: linear-gradient(#C9D7E4, #1C4268);
+    background-image: url("https://thumbs.dreamstime.com/b/photographie-noire-et-blanche-d-une-vieille-ferme-104007525.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 a{
     font-size: 20px;
 }
@@ -28,5 +26,32 @@ a:hover{
     color: paleturquoise;
 }
 a:visited{
-    color:springgreen
+    color:springgreen;
+}
+blockquote {
+    display:inline-block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 1px;
+    margin-inline-end: 40px;
+}
+blockquote p {
+    padding: 30px;
+    background:#D3D3D3;
+    border-radius: 30px;
+    margin: 80px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    font-size: 32px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+figcaption {
+    margin-left: 350px;
 }
