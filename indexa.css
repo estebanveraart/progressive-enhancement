@@ -1,8 +1,10 @@
 .good{
     color :green ;
+    text-transform: capitalize;
 }
 .bad{
     color: red;
+    text-transform: capitalize;
 }
 link {
     display: none;
@@ -14,11 +16,12 @@ body {
     width: 90%;
     margin: 18%;
     background: linear-gradient(#C9D7E4, #1C4268);
-    background-image: url("https://previews.123rf.com/images/derocz/derocz1102/derocz110200026/8756216-ferme-illustration-de-dessin-anim%C3%A9-noir-et-blanc-vecteur.jpg");
+    background-image: url("https://st.depositphotos.com/1003593/1930/i/600/depositphotos_19300633-stock-photo-from-point-a-to-point.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right 0% bottom 0%;
     background-size: cover;
+    line-height: 30px;
 }
 a{
     font-size: 20px;
@@ -57,8 +60,26 @@ figcaption {
     margin-left: 350px;
 }
 .village{
-
+    border-style: ridge;
+    border-left-color: lightcoral;
 }
 .fermier{
-    
+    border-style: ridge;
+    border-left-color: lightseagreen;
+}
+.titre{
+    background-color: yellow;
+    background-size: 3px;
+}
+table, th, td{
+    border-style: ridge;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+tr:nth-child(even) {
+    background-color:white;
 }
