@@ -11,10 +11,10 @@ link {
   }
 body {
 	font-size: 15px;
-	font-family: Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: navy;
     width: 90%;
-    margin: 18%;
+    margin: 8%;
     background: linear-gradient(#C9D7E4, #1C4268);
     background-image: url("https://st.depositphotos.com/1003593/1930/i/600/depositphotos_19300633-stock-photo-from-point-a-to-point.jpg");
     background-repeat: no-repeat;
@@ -82,4 +82,11 @@ tr:nth-child(odd){
 }
 tr:nth-child(even) {
     background-color:white;
+}
+#conteneur{
+    display: flex;
+}
+.photo{
+    width: 700px;
+    height:500px;
 }
