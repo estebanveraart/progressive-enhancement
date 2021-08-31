@@ -13,11 +13,11 @@ body {
 	color: navy;
     width: 90%;
     margin: 18%;
+    background: linear-gradient(#C9D7E4, #1C4268);
     background-image: url("https://previews.123rf.com/images/derocz/derocz1102/derocz110200026/8756216-ferme-illustration-de-dessin-anim%C3%A9-noir-et-blanc-vecteur.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    background: linear-gradient(#C9D7E4, #1C4268);
+    background-position: right 0% bottom 0%;
 }
 a{
     font-size: 20px;
@@ -59,5 +59,5 @@ figcaption {
 
 }
 .fermier{
-
+    
 }
